@@ -14,3 +14,28 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+.image {
+  background-image: url(./assets/images/hero_bg.png);
+}
+
+.award {
+  background-image: url(./assets/images/Bg-award.png);
+}
+
+.video {
+  background: linear-gradient(
+    to right,
+    rgba(97, 17, 226, 0.3),
+    rgba(97, 17, 226, 0.15)
+  );
+}
+
+.AwardGradient {
+  background: linear-gradient(
+    to right,
+    rgba(178, 101, 221, 0.5),
+    rgba(171, 90, 231, 0.2)
+  );
+  backdrop-filter: blur(10px);
+}

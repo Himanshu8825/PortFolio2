@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center px-8 py-8 ">
         <span>
           <p className=" font-Rubik text-bg-primary font-bold text-xl">
-            Bipin Babu.
+            Bibin Babu.
           </p>
         </span>
         <span>
