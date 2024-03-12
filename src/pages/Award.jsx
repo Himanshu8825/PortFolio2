@@ -10,13 +10,13 @@ const Award = () => {
             <p className="text-4xl ">Awards and Recognition</p>
           </span>
           <div className="flex justify-evenly gap-4">
-            <img src={Award1} alt=""   />
+            <img src={Award1} alt="" loading="lazy"  />
 
-            <img src={Award2} alt=""  />
+            <img src={Award2} alt="" loading="lazy" />
 
-            <img src={Award3} alt=""  />
+            <img src={Award3} alt="" loading="lazy" />
 
-            <img src={Award4} alt=""  />
+            <img src={Award4} alt="" loading="lazy" />
           </div>
         </div>
       </div>

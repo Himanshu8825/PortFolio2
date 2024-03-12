@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="w-full flex justify-between items-center px-8 py-8 ">
+      <div className="w-full flex justify-between items-center px-8 py-6">
         <span>
           <p className=" font-Rubik text-bg-primary font-bold text-xl">
             Bibin Babu.

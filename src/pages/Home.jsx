@@ -1,7 +1,6 @@
 import React from "react";
 import { Hero } from "../assets/index";
-import AboutMe from "./AboutMe";
-import Award from "./Award";
+
 
 const Home = () => {
   return (
@@ -22,7 +21,7 @@ const Home = () => {
           </span>
         </span>
         <span>
-          <img src={Hero} alt="Hero" />
+          <img src={Hero} alt="Hero"  loading="lazy" />
         </span>
 
         {/* <div className=" absolute left-[24rem]  top-4">
@@ -35,12 +34,7 @@ const Home = () => {
           </video>
         </div> */}
       </div>
-      <section>
-        <AboutMe />
-      </section>
-      <section>
-        <Award />
-      </section>
+      
     </>
   );
 };

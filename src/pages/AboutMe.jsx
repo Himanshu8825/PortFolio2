@@ -15,7 +15,7 @@ const AboutMe = () => {
             </h2>
             <div className=" bg-bg-primary px-1 py-1 m-2"></div>
             <span className="rounded   shadow-lg">
-              <img className="w-full" src={Card1} alt="Card1" />
+              <img className="w-full" src={Card1} alt="Card1" loading="lazy" />
               <span className="px-4 py-2">
                 <p className="text-gray-700 text-base">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -32,7 +32,7 @@ const AboutMe = () => {
             </h2>
             <div className=" bg-bg-primary px-1 py-1 m-2"></div>
             <span className="rounded   shadow-lg">
-              <img className="w-full" src={Card2} alt="Card2" />
+              <img className="w-full" src={Card2} alt="Card2" loading="lazy" />
               <span className="px-4 py-2">
                 <p className="text-gray-700 text-base">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -49,7 +49,7 @@ const AboutMe = () => {
             </h2>
             <div className=" bg-bg-primary px-1 py-1 m-2"></div>
             <span className="rounded   shadow-lg">
-              <img className="w-full" src={Card3} alt="Card3" />
+              <img className="w-full" src={Card3} alt="Card3" loading="lazy" />
               <span className="px-4 py-2">
                 <p className="text-gray-700 text-base">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
