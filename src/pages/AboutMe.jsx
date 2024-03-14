@@ -10,7 +10,7 @@ const AboutMe = () => {
         </p>
         <div className="flex justify-between m-[2rem] gap-[4rem] ">
           <span className="text-center">
-            <h2 className="text-2xl font-semibold  video py-3 rounded-lg m-1 font-Rubik ">
+            <h2 className="text-2xl font-semibold   video py-3 rounded-lg m-1 font-Rubik ">
               Entrepreneur
             </h2>
             <div className=" bg-bg-primary px-1 py-1 m-2"></div>

@@ -23,6 +23,28 @@
   background-image: url(./assets/images/Bg-award.png);
 }
 
+.work_bg {
+  background-image: url(./assets/images/work_bg.png);
+  background-repeat: no-repeat;
+}
+
+.blog {
+  background-image: url(./assets/images/blog_bg.png);
+  object-fit: cover;
+}
+
+.contact {
+  background-image: url(./assets/images/contact_bg.png);
+}
+
+.gradient-background {
+  background-image: linear-gradient(
+    to right,
+    rgba(151, 31, 125, 1),
+    rgba(97, 17, 226, 1)
+  );
+}
+
 .video {
   background: linear-gradient(
     to right,

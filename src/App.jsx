@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Home, AboutMe, Work, Gallery, Contact, Blog, Award } from "./Index";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,21 @@ const App = () => {
       </section>
       <section>
         <Award />
+      </section>
+      <section>
+        <Work />
+      </section>
+      <section>
+        <Gallery />
+      </section>
+      <section>
+        <Blog />
+      </section>
+      <section>
+        <Contact />
+      </section>
+      <section>
+        <Footer />
       </section>
     </>
   );

@@ -1,11 +1,10 @@
 import React from "react";
 import { Hero } from "../assets/index";
 
-
 const Home = () => {
   return (
     <>
-      <div className="image h-[672px] flex items-center justify-between">
+      <div className="image h-[672px] flex items-center justify-between relative">
         <span className="ml-8">
           <span className="p-[2rem]">
             <p className=" text-bg-primary font-Roboto text-5xl leading-[3.5rem]">
@@ -21,22 +20,16 @@ const Home = () => {
           </span>
         </span>
         <span>
-          <img src={Hero} alt="Hero"  loading="lazy" />
+          <img src={Hero} alt="Hero" loading="lazy" />
         </span>
-
-        {/* <div className=" absolute left-[24rem]  top-4">
-          <video className="w-[20%] rounded-lg video " controls>
-            <source
-              src="https://docs.material-tailwind.com/demo.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-        </div> */}
+        <span className="absolute left-[28rem] bottom-6 ">
+          <iframe
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            className=" rounded-xl "
+          ></iframe>
+        </span>
       </div>
-      
     </>
   );
 };
-
 export default Home;
