@@ -9,8 +9,8 @@ const Gallery = () => {
           Sneak peek to my world
         </p>
 
-        <div className="w-full flex justify-center">
-          <div className="grid grid-cols-3 p-[2rem] gap-6 w-[80%] cursor-pointer">
+        <span className="w-full flex justify-center">
+          <span className="grid grid-cols-3 p-[2rem] gap-6 w-[80%] cursor-pointer">
             {images.map((image) => (
               <img
                 key={image.id}
@@ -19,8 +19,8 @@ const Gallery = () => {
                 className="w-[350px] h-[250px] rounded-xl hover:border hover:border-bg-secondary transform transition-transform hover:scale-110"
               />
             ))}
-          </div>
-        </div>
+          </span>
+        </span>
       </div>
     </>
   );
